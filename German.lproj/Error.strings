@@ -1,0 +1,47 @@
+﻿/* 
+   Error.strings
+   BluetoothRemoteFramework
+
+   Created by Marcel Erz on 8/14/08.
+   Copyright 2008 Eliah Project. All rights reserved.
+ */
+
+// Inquiry
+"1" = "Suche läuft bereits.";
+"2" = "Kein Objekt zur Benachrichtigung verfügbar.";
+"3" = "Konnte Abfrage nicht starten.";
+"4" = "Abfrage wurde abgelehnt.";
+"5" = "Zur Zeit läuft keine Suche.";
+"6" = "Konnte Abfrage nicht stoppen.";
+"8" = "Bitte schalten Sie Bluetooth ein.";
+"9" = "Konnte nicht mit Gerät '%@' verbinden."
+"10" = "Gerät ist nicht verbunden. Kann Gerät nicht zur auto-connect Liste hinzugefügen."
+"11" = "Gerät ist nicht verbunden. Kann Gerät nicht von der auto-connect Liste entfernen."
+"12" = "Kann Gerät nicht zur auto-connect Liste hinzugefügen. Gerät existiert bereits."
+"13" = "Kann Adresse nicht zur auto-connect Liste hinzugefügen. Adresse existiert bereits."
+"14" = "Kann Gerät nicht von der auto-connect Liste entfernen. Gerät nicht in der Liste."
+"15" = "Kann Adresse nicht von der auto-connect Liste entfernen. Adresse nicht in der Liste."
+
+// BluetoothRemoteDevice
+"50" = "Konnte nicht zum Gerät verbinden.";
+"51" = "Gerät nicht initialisiert.";
+"52" = "Konnte keine Verbindung zum Gerät '%@' herstellen.";
+"53" = "Konnte keine Informationen von Gerät '%@' erhalten.";
+"54" = "Konnte Verbindung von Gerät '%@' nicht trennen.";
+"55" = "Konnte Kanal %d nicht äffnen.";
+"56" = "Konnte Kanal nicht trennen.";
+"57" = "Konnte Daten nicht senden.";
+
+// Wiimote
+"100" = "LED Index %d ist nicht möglich.";
+"101" = "Warte auf Antwort von vorheriger Abfrage bei %d.";
+"102" = "Lese-Versuch von Nur-Lese Adresse %d.";
+"103" = "Adresse %d existiert nicht.";
+"104" = "Unbekannte Daten von EEPROM.";
+"105" = "Unbekannter Typ Daten.";
+"106" = "Unbekanntes Infrarot Format mit Länge %d.";
+
+// BDRemote
+"150" = "Packet mit nicht unterstützter Länge von %d erhalten.";
+"151" = "Taste %d ist unbekannt.";
+"152" = "Unbekannte Nummer der Taste angefragt (%d).";

@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4C89F60E5548B800BAF46F /* Public.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4C89F50E5548B800BAF46F /* Public.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93F8F0E5515CA00E6018A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93F8D0E5515CA00E6018A /* LICENSE.txt */; };
+		1FC93F900E5515CA00E6018A /* HISTORY.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93F8E0E5515CA00E6018A /* HISTORY.txt */; };
+		1FC93F940E5515D300E6018A /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F920E5515D300E6018A /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93F950E5515D300E6018A /* Interfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F930E5515D300E6018A /* Interfaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93F9D0E5515DC00E6018A /* BluetoothRemoteDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F970E5515DC00E6018A /* BluetoothRemoteDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93F9E0E5515DC00E6018A /* BluetoothRemoteDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93F980E5515DC00E6018A /* BluetoothRemoteDevice.m */; };
+		1FC93F9F0E5515DC00E6018A /* Wiimote.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F990E5515DC00E6018A /* Wiimote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93FA00E5515DC00E6018A /* Wiimote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93F9A0E5515DC00E6018A /* Wiimote.m */; };
+		1FC93FA10E5515DC00E6018A /* BDRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F9B0E5515DC00E6018A /* BDRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93FA20E5515DC00E6018A /* BDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93F9C0E5515DC00E6018A /* BDRemote.m */; };
+		1FC93FA80E5515E500E6018A /* Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93FA30E5515E500E6018A /* Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FC93FA90E5515E500E6018A /* Inquiry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93FA40E5515E500E6018A /* Inquiry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93FAA0E5515E500E6018A /* Inquiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93FA50E5515E500E6018A /* Inquiry.m */; };
+		1FC93FAB0E5515E500E6018A /* BRObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93FA60E5515E500E6018A /* BRObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC93FAC0E5515E500E6018A /* BRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93FA70E5515E500E6018A /* BRObject.m */; };
+		1FC93FB20E55163600E6018A /* Error.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93FB10E55163600E6018A /* Error.strings */; };
+		1FC93FB50E55164200E6018A /* Log.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93FB40E55164200E6018A /* Log.strings */; };
+		1FC940FF0E5516E500E6018A /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC940FE0E5516E500E6018A /* IOBluetooth.framework */; };
+		1FD3C2C50E5632B000F4D764 /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F920E5515D300E6018A /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2C60E5632B000F4D764 /* Interfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F930E5515D300E6018A /* Interfaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2C70E5632B000F4D764 /* BluetoothRemoteDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F970E5515DC00E6018A /* BluetoothRemoteDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2C80E5632B000F4D764 /* Wiimote.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F990E5515DC00E6018A /* Wiimote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2C90E5632B000F4D764 /* BDRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93F9B0E5515DC00E6018A /* BDRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2CA0E5632B000F4D764 /* Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93FA30E5515E500E6018A /* Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1FD3C2CB0E5632B000F4D764 /* Inquiry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93FA40E5515E500E6018A /* Inquiry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2CC0E5632B000F4D764 /* BRObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC93FA60E5515E500E6018A /* BRObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2CD0E5632B000F4D764 /* Public.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4C89F50E5548B800BAF46F /* Public.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD3C2CE0E5632BF00F4D764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		1FD3C2CF0E5632BF00F4D764 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93F8D0E5515CA00E6018A /* LICENSE.txt */; };
+		1FD3C2D00E5632BF00F4D764 /* HISTORY.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93F8E0E5515CA00E6018A /* HISTORY.txt */; };
+		1FD3C2D10E5632BF00F4D764 /* Log.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93FB40E55164200E6018A /* Log.strings */; };
+		1FD3C2D20E5632BF00F4D764 /* Error.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FC93FB10E55163600E6018A /* Error.strings */; };
+		1FD3C2D30E5632CE00F4D764 /* BluetoothRemoteDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93F980E5515DC00E6018A /* BluetoothRemoteDevice.m */; };
+		1FD3C2D40E5632CE00F4D764 /* Wiimote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93F9A0E5515DC00E6018A /* Wiimote.m */; };
+		1FD3C2D50E5632CE00F4D764 /* BDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93F9C0E5515DC00E6018A /* BDRemote.m */; };
+		1FD3C2D60E5632CE00F4D764 /* Inquiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93FA50E5515E500E6018A /* Inquiry.m */; };
+		1FD3C2D70E5632CE00F4D764 /* BRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC93FA70E5515E500E6018A /* BRObject.m */; };
+		1FD3C2F60E5632E000F4D764 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		1FD3C2F70E5632E000F4D764 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC940FE0E5516E500E6018A /* IOBluetooth.framework */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1F4C89F50E5548B800BAF46F /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		1F7E9AB20E92B629001A239E /* MacRCHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MacRCHelper.app; path = build/Debug/MacRCHelper.app; sourceTree = "<group>"; };
+		1F7E9AB40E92B629001A239E /* MacRCHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacRCHelper-Info.plist"; sourceTree = "<group>"; };
+		1FC93F8D0E5515CA00E6018A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		1FC93F8E0E5515CA00E6018A /* HISTORY.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HISTORY.txt; sourceTree = "<group>"; };
+		1FC93F920E5515D300E6018A /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		1FC93F930E5515D300E6018A /* Interfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interfaces.h; sourceTree = "<group>"; };
+		1FC93F970E5515DC00E6018A /* BluetoothRemoteDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothRemoteDevice.h; sourceTree = "<group>"; };
+		1FC93F980E5515DC00E6018A /* BluetoothRemoteDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothRemoteDevice.m; sourceTree = "<group>"; };
+		1FC93F990E5515DC00E6018A /* Wiimote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wiimote.h; sourceTree = "<group>"; };
+		1FC93F9A0E5515DC00E6018A /* Wiimote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wiimote.m; sourceTree = "<group>"; };
+		1FC93F9B0E5515DC00E6018A /* BDRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRemote.h; sourceTree = "<group>"; };
+		1FC93F9C0E5515DC00E6018A /* BDRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRemote.m; sourceTree = "<group>"; };
+		1FC93FA30E5515E500E6018A /* Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Private.h; sourceTree = "<group>"; };
+		1FC93FA40E5515E500E6018A /* Inquiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inquiry.h; sourceTree = "<group>"; };
+		1FC93FA50E5515E500E6018A /* Inquiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inquiry.m; sourceTree = "<group>"; };
+		1FC93FA60E5515E500E6018A /* BRObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRObject.h; sourceTree = "<group>"; };
+		1FC93FA70E5515E500E6018A /* BRObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRObject.m; sourceTree = "<group>"; };
+		1FC93FAD0E55162900E6018A /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Log.strings; sourceTree = "<group>"; };
+		1FC93FAF0E55163000E6018A /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Error.strings; sourceTree = "<group>"; };
+		1FC93FB30E55163C00E6018A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Error.strings; sourceTree = "<group>"; };
+		1FC93FB60E55164700E6018A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Log.strings; sourceTree = "<group>"; };
+		1FC940FE0E5516E500E6018A /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = /System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<absolute>"; };
+		1FD3C2A00E5631D200F4D764 /* BluetoothRemotePrivate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothRemotePrivate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DBCF5E0370ADEE00C91783 /* BluetoothRemote_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothRemote_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* BluetoothRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7E9AB00E92B629001A239E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD3C29E0E5631D200F4D764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD3C2F60E5632E000F4D764 /* Cocoa.framework in Frameworks */,
+				1FD3C2F70E5632E000F4D764 /* IOBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				1FC940FF0E5516E500E6018A /* IOBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* BluetoothRemote.framework */,
+				1FD3C2A00E5631D200F4D764 /* BluetoothRemotePrivate.framework */,
+				1F7E9AB20E92B629001A239E /* MacRCHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* BluetoothRemote */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E9AA90E92B50B001A239E /* Helper */,
+				1F7E9AA80E92B4EA001A239E /* Framework */,
+				0867D69AFE84028FC02AAC07 /* Used Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				1F7E9AB40E92B629001A239E /* MacRCHelper-Info.plist */,
+			);
+			name = BluetoothRemote;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Used Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				1FC940FE0E5516E500E6018A /* IOBluetooth.framework */,
+			);
+			name = "Used Frameworks";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				1FC93FB40E55164200E6018A /* Log.strings */,
+				1FC93FB10E55163600E6018A /* Error.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				1FC93FA40E5515E500E6018A /* Inquiry.h */,
+				1FC93FA50E5515E500E6018A /* Inquiry.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		1F698AA50E5620FA00E1934C /* Source-Code */ = {
+			isa = PBXGroup;
+			children = (
+				1F698AA60E56214700E1934C /* Generic */,
+				08FB77AEFE84172EC02AAC07 /* General */,
+				1FC93F960E5515DC00E6018A /* Devices */,
+				1FC93F910E5515D300E6018A /* Declare */,
+			);
+			name = "Source-Code";
+			sourceTree = "<group>";
+		};
+		1F698AA60E56214700E1934C /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				1FC93FA60E5515E500E6018A /* BRObject.h */,
+				1FC93FA70E5515E500E6018A /* BRObject.m */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		1F7E9AA80E92B4EA001A239E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1F698AA50E5620FA00E1934C /* Source-Code */,
+				1FC93F8A0E5515BD00E6018A /* Info */,
+				32C88DFF0371C24200C91783 /* System */,
+				089C1665FE841158C02AAC07 /* Resources */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		1F7E9AA90E92B50B001A239E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		1FC93F8A0E5515BD00E6018A /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				1FC93F8D0E5515CA00E6018A /* LICENSE.txt */,
+				1FC93F8E0E5515CA00E6018A /* HISTORY.txt */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		1FC93F910E5515D300E6018A /* Declare */ = {
+			isa = PBXGroup;
+			children = (
+				1FC93FA30E5515E500E6018A /* Private.h */,
+				1FC93F920E5515D300E6018A /* Types.h */,
+				1FC93F930E5515D300E6018A /* Interfaces.h */,
+				1F4C89F50E5548B800BAF46F /* Public.h */,
+			);
+			name = Declare;
+			sourceTree = "<group>";
+		};
+		1FC93F960E5515DC00E6018A /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				1FC93F970E5515DC00E6018A /* BluetoothRemoteDevice.h */,
+				1FC93F980E5515DC00E6018A /* BluetoothRemoteDevice.m */,
+				1FC93F990E5515DC00E6018A /* Wiimote.h */,
+				1FC93F9A0E5515DC00E6018A /* Wiimote.m */,
+				1FC93F9B0E5515DC00E6018A /* BDRemote.h */,
+				1FC93F9C0E5515DC00E6018A /* BDRemote.m */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* BluetoothRemote_Prefix.pch */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FD3C29B0E5631D200F4D764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD3C2C50E5632B000F4D764 /* Types.h in Headers */,
+				1FD3C2C60E5632B000F4D764 /* Interfaces.h in Headers */,
+				1FD3C2C70E5632B000F4D764 /* BluetoothRemoteDevice.h in Headers */,
+				1FD3C2C80E5632B000F4D764 /* Wiimote.h in Headers */,
+				1FD3C2C90E5632B000F4D764 /* BDRemote.h in Headers */,
+				1FD3C2CA0E5632B000F4D764 /* Private.h in Headers */,
+				1FD3C2CB0E5632B000F4D764 /* Inquiry.h in Headers */,
+				1FD3C2CC0E5632B000F4D764 /* BRObject.h in Headers */,
+				1FD3C2CD0E5632B000F4D764 /* Public.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC93F940E5515D300E6018A /* Types.h in Headers */,
+				1FC93F950E5515D300E6018A /* Interfaces.h in Headers */,
+				1FC93F9D0E5515DC00E6018A /* BluetoothRemoteDevice.h in Headers */,
+				1FC93F9F0E5515DC00E6018A /* Wiimote.h in Headers */,
+				1FC93FA10E5515DC00E6018A /* BDRemote.h in Headers */,
+				1FC93FA80E5515E500E6018A /* Private.h in Headers */,
+				1FC93FA90E5515E500E6018A /* Inquiry.h in Headers */,
+				1FC93FAB0E5515E500E6018A /* BRObject.h in Headers */,
+				1F4C89F60E5548B800BAF46F /* Public.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F7E9AB10E92B629001A239E /* MacRCHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7E9AB70E92B629001A239E /* Build configuration list for PBXNativeTarget "MacRCHelper" */;
+			buildPhases = (
+				1F7E9AAE0E92B629001A239E /* Resources */,
+				1F7E9AAF0E92B629001A239E /* Sources */,
+				1F7E9AB00E92B629001A239E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacRCHelper;
+			productName = MacRCHelper;
+			productReference = 1F7E9AB20E92B629001A239E /* MacRCHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FD3C29F0E5631D200F4D764 /* BluetoothRemotePrivate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD3C2A70E5631D300F4D764 /* Build configuration list for PBXNativeTarget "BluetoothRemotePrivate" */;
+			buildPhases = (
+				1FD3C29B0E5631D200F4D764 /* Headers */,
+				1FD3C29C0E5631D200F4D764 /* Resources */,
+				1FD3C29D0E5631D200F4D764 /* Sources */,
+				1FD3C29E0E5631D200F4D764 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothRemotePrivate;
+			productName = BluetoothRemotePrivate;
+			productReference = 1FD3C2A00E5631D200F4D764 /* BluetoothRemotePrivate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DC2EF4F0486A6940098B216 /* BluetoothRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "BluetoothRemote" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothRemote;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = BluetoothRemote;
+			productReference = 8DC2EF5B0486A6940098B216 /* BluetoothRemote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "MacRC" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* BluetoothRemote */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* BluetoothRemote */,
+				1FD3C29F0E5631D200F4D764 /* BluetoothRemotePrivate */,
+				1F7E9AB10E92B629001A239E /* MacRCHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7E9AAE0E92B629001A239E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD3C29C0E5631D200F4D764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD3C2CE0E5632BF00F4D764 /* InfoPlist.strings in Resources */,
+				1FD3C2CF0E5632BF00F4D764 /* LICENSE.txt in Resources */,
+				1FD3C2D00E5632BF00F4D764 /* HISTORY.txt in Resources */,
+				1FD3C2D10E5632BF00F4D764 /* Log.strings in Resources */,
+				1FD3C2D20E5632BF00F4D764 /* Error.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				1FC93F8F0E5515CA00E6018A /* LICENSE.txt in Resources */,
+				1FC93F900E5515CA00E6018A /* HISTORY.txt in Resources */,
+				1FC93FB50E55164200E6018A /* Log.strings in Resources */,
+				1FC93FB20E55163600E6018A /* Error.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7E9AAF0E92B629001A239E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD3C29D0E5631D200F4D764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD3C2D30E5632CE00F4D764 /* BluetoothRemoteDevice.m in Sources */,
+				1FD3C2D40E5632CE00F4D764 /* Wiimote.m in Sources */,
+				1FD3C2D50E5632CE00F4D764 /* BDRemote.m in Sources */,
+				1FD3C2D60E5632CE00F4D764 /* Inquiry.m in Sources */,
+				1FD3C2D70E5632CE00F4D764 /* BRObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC93F9E0E5515DC00E6018A /* BluetoothRemoteDevice.m in Sources */,
+				1FC93FA00E5515DC00E6018A /* Wiimote.m in Sources */,
+				1FC93FA20E5515DC00E6018A /* BDRemote.m in Sources */,
+				1FC93FAA0E5515E500E6018A /* Inquiry.m in Sources */,
+				1FC93FAC0E5515E500E6018A /* BRObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FC93FB10E55163600E6018A /* Error.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC93FAF0E55163000E6018A /* English */,
+				1FC93FB30E55163C00E6018A /* German */,
+			);
+			name = Error.strings;
+			sourceTree = "<group>";
+		};
+		1FC93FB40E55164200E6018A /* Log.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC93FAD0E55162900E6018A /* English */,
+				1FC93FB60E55164700E6018A /* German */,
+			);
+			name = Log.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BluetoothRemote_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = BluetoothRemote;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BluetoothRemote_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = BluetoothRemote;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		1F7E9AB50E92B629001A239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "MacRCHelper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MacRCHelper;
+			};
+			name = Debug;
+		};
+		1F7E9AB60E92B629001A239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "MacRCHelper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MacRCHelper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1FD3C2A20E5631D300F4D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BluetoothRemotePrivate;
+			};
+			name = Debug;
+		};
+		1FD3C2A30E5631D300F4D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BluetoothRemotePrivate;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "BluetoothRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "MacRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7E9AB70E92B629001A239E /* Build configuration list for PBXNativeTarget "MacRCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7E9AB50E92B629001A239E /* Debug */,
+				1F7E9AB60E92B629001A239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD3C2A70E5631D300F4D764 /* Build configuration list for PBXNativeTarget "BluetoothRemotePrivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD3C2A20E5631D300F4D764 /* Debug */,
+				1FD3C2A30E5631D300F4D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

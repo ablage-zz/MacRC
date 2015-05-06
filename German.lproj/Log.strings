@@ -1,0 +1,43 @@
+﻿/* 
+   Log.strings
+   BluetoothRemoteFramework
+
+   Created by Marcel Erz on 8/14/08.
+   Copyright 2008 Eliah Project. All rights reserved.
+ */
+
+// Inquiry
+"1" = "Starte suche.";
+"2" = "Suche...";
+"3" = "Suche abbrechen.";
+"4" = "Suche abgebrochen.";
+"5" = "Wiimote '%@' gefunden.";
+"6" = "Verbindung mit Gerät '%@' wird aufgebaut.";
+"7" = "Verbunden mit Gerät '%@'.";
+"8" = "Verbindung yu Gerät '%@' wurde abgelehnt.";
+"9" = "Wii-BalanceBoard '%@' gefunden.";
+"10" = "BD-Remote '%@' gefunden.";
+"11" = "Gerät gefunden '%@'.";
+"12" = "Unbekanntes oder nicht gewolltest Gerät gefunden: '%@'.";
+"13" = "Gerät '%@' verbunden. Wurde in auto-connect Liste gefunden.";
+"14" = "Gerät '%@' verbunden. Wurde nicht in der auto-connect Liste gefunden.";
+"15" = "Geräte name geändert: '%@'.";
+"16" = "Suche fertiggestellt.";
+"17" = "Filter wurde auf %d gesetzt.";
+"18" = "Das System brach die Abfrage ab.";
+
+// BluetoothRemoteDevice
+"51" = "Öffne verbindung nach '%@'.";
+"52" = "Schliesse Verbindung zu '%@'.";
+"53" = "Öffne Kanal.";
+"54" = "Schliesse Kanal.";
+"55" = "Kanal geschlossen.";
+"56" = "Daten empfangen (Löänge %d); ohne eine Verbindung.";
+"57" = "Daten mit Länge %d empfangen.";
+"58" = "Sende Daten mit Länge %d zum Kanal %d.";
+
+// Wiimote
+
+
+// BDRemote
+"150" = "Initialisier BD-Remote";
